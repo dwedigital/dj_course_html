@@ -147,7 +147,7 @@ footer {
 
 form {
   margin: 50px auto 50px auto;
-  width: 30rem;
+  width: 20rem;
   display: flex;
   flex-direction: column;
 }
@@ -175,5 +175,9 @@ label {
   }
   .left img {
     order: -1;
+  }
+  menu ul li{
+      font-size: 1rem;
+      margin:5px;
   }
 }
