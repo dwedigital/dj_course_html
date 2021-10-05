@@ -127,8 +127,13 @@ footer {
   height: 100%;
 }
 
+.content img{
+    width:25%;
+}
+
 .copy {
   padding: 20px;
+  width:75%;
 }
 .copy h2 {
   margin-bottom: 20px;
@@ -180,4 +185,11 @@ label {
       font-size: 1rem;
       margin:5px;
   }
+  .content img{
+    width:100%;
+}
+
+.container {
+margin:20px 0;
+}
 }
