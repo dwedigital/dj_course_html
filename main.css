@@ -91,7 +91,7 @@ li {
   background-color: grey;
 }
 
-/* ABOUT & LOGIN */
+/* ABOUT */
 
 .hero h1{
     text-align: center;
@@ -111,7 +111,7 @@ li {
 
 
 .content{
-    width:75%;
+    width:80%;
     display: flex;
     align-items: center;
     height:100%;
@@ -133,6 +133,41 @@ li {
     color:white;
      }
     
-    
 
+     /* LOGIN */
+
+     form{
+         
+         margin:50px auto 50px auto;
+         width:30rem;
+         display: flex;
+         flex-direction: column;
+     }
+
+     button{
+         margin-top:20px;
+         padding:10px;
+     }
+     input[type="password"],input[type="email"]{
+        padding:10px;
+        margin-top:5px;
+
+     }
+     label{
+         margin-top:20px;
+         font-size: 1.1rem;
+         
+     }
+
+     /* MOBILE */
+    
+@media screen and (max-width:800px) {
+    .content{
+        flex-direction: column;
+        text-align: center;
+    }
+    .left img{
+        order:-1;
+    }
+}
     
