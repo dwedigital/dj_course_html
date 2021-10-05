@@ -4,6 +4,7 @@
 }
 body {
   font-family: Helvetica, sans-serif;
+  font-size:16px;
 }
 
 h1 {
@@ -41,7 +42,7 @@ li {
     display: flex;
     align-items: center;
     justify-content:center;
-  background-image: url("../assets/img/office.jpg");
+  background-image: url("/assets/img/office.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
@@ -89,6 +90,25 @@ li {
   height: 200px;
   width: 200px;
   background-color: grey;
+}
+
+/* FOOTER */
+
+footer{
+    margin-top:50px;
+    border-top: solid 10px rgb(6, 49, 78);
+    background-color:lightgrey;
+    display: flex;
+    justify-content:flex-end;
+    color:rgb(6, 49, 78);
+    font-weight: 600;
+    
+}
+
+footer .col{
+    width:50%;
+    padding: 30px;
+    text-align: right;
 }
 
 /* ABOUT */
