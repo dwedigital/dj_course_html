@@ -96,16 +96,10 @@ footer {
   margin-top: 50px;
   border-top: solid 10px rgb(6, 49, 78);
   background-color: lightgrey;
-  display: flex;
-  justify-content: flex-end;
+  text-align: right;
   color: rgb(6, 49, 78);
   font-weight: 600;
-}
-
-footer .col {
-  width: 50%;
   padding: 30px;
-  text-align: right;
 }
 
 /* ABOUT */
